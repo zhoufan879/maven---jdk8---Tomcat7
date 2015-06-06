@@ -14,21 +14,21 @@ Maven 自动化部署
 <code>
 	\<role rolename="tomcat"/>
 
-  	\<role rolename="role1"/>
+  	<role rolename="role1"/>
   	
-  	\<role rolename="manager-gui"/>
+  	<role rolename="manager-gui"/>
   	
-  	\<role rolename="manager-script" />
+  	<role rolename="manager-script" />
   	
-  	\<role rolename="admin-gui"/>
+  	<role rolename="admin-gui"/>
   	
-  	\<user username="tomcat" password="tomcat" roles="tomcat"/>
+  	<user username="tomcat" password="tomcat" roles="tomcat"/>
   	
-  	\<user username="both" password="tomcat" roles="tomcat,role1"/>
+  	<user username="both" password="tomcat" roles="tomcat,role1"/>
   	
-  	\<user username="role1" password="tomcat" roles="role1"/>
+  	<user username="role1" password="tomcat" roles="role1"/>
   	
-  	\<user username="zhoufan879" password="123456" roles="tomcat,role1,manager-script,admin-gui"/>
+  	<user username="zhoufan879" password="123456" roles="tomcat,role1,manager-script,admin-gui"/>
   	
 </code>
 
