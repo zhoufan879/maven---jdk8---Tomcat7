@@ -12,7 +12,7 @@ Maven 自动化部署
 1. 配置Tomcat 用户
 --------
 <code>
-	\<role rolename="tomcat"/>
+	<role rolename="tomcat"/>
 
   	<role rolename="role1"/>
   	
