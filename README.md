@@ -11,7 +11,7 @@ Maven 自动化部署
 
 1. 配置Tomcat 用户
 --------
-<code>
+\<code\>
 	<role rolename="tomcat"/>
   	<role rolename="role1"/>
   	<role rolename="manager-gui"/>
@@ -21,7 +21,7 @@ Maven 自动化部署
   	<user username="both" password="tomcat" roles="tomcat,role1"/>
   	<user username="role1" password="tomcat" roles="role1"/>
   	<user username="zhoufan879" password="123456" roles="tomcat,role1,manager-script,admin-gui"/>
-</code>
+\<\/code\>
 
 2. 修改Maven的setting.xml
 --------
