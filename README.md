@@ -101,13 +101,21 @@ ps: 之后的操作是 redeploy
 ---------
 <code>
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project StruthioCamelus: Compilation failure
+
 [ERROR] Unable to locate the Javac Compiler in:
+
 [ERROR] D:\Program Files\Java\jre1.8.0_40\..\lib\tools.jar
+
 [ERROR] Please ensure you are using JDK 1.4 or above and
+
 [ERROR] not a JRE (the com.sun.tools.javac.Main class is required).
+
 [ERROR] In most cases you can change the location of your Java
+
 [ERROR] installation by setting the JAVA_HOME environment variable.
+
 [ERROR] -> [Help 1]
+
 </code>
 
 一般是JDK 配置，选择Eclipse-->window-->preferences-->java-->Installed JREs-->选中JDK，不是JRE
@@ -117,8 +125,11 @@ ps: 之后的操作是 redeploy
 ---------
 <code>
 [ERROR] Failed to execute goal org.apache.tomcat.maven:tomcat7-maven-plugin:2.2:deploy (default-cli) on project StruthioCamelus: Cannot invoke Tomcat manager: Connection refused: connect -> [Help 1]
+
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+
 </code>
 
 一般是Tomcat 没启动成功，命令 startup.bat
@@ -127,6 +138,7 @@ ps: 之后的操作是 redeploy
 ---------
 <code>
 [ERROR] Failed to execute goal org.apache.tomcat.maven:tomcat7-maven-plugin:2.2:deploy (default-cli) on project StruthioCamelus: Cannot invoke Tomcat manager: Connection reset by peer: socket write error -> [Help 1]
+
 </code>
 
 一般是Tomcat 启动方式不正确，切忌命令 startup.bat，而非tomcat.exe ...神马的
