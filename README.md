@@ -119,6 +119,7 @@ ps: 之后的操作是 redeploy
 </code>
 
 一般是JDK 配置，选择Eclipse-->window-->preferences-->java-->Installed JREs-->选中JDK，不是JRE
+
 也可能是项目编译环境，工程属性-->project facets-->Dynamic Web Module 3.0 + Java 1.8
 
 6.2 拒绝访问
