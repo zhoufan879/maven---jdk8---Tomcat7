@@ -36,16 +36,23 @@ Maven 自动化部署
 2. 修改Maven的setting.xml
 --------
 <code>
+
 	<server>
+	
       		<id>tomcat7</id>
+      		
       		<username>zhoufan879</username>
+      		
       		<password>123456</password>
+      		
     	</server>
+    	
 </code>
 
 3. 配置pom.xml	
 --------
 <code>
+
 	<build>
 		<finalName>StruthioCamelus</finalName>
 		<plugins>
@@ -71,6 +78,7 @@ Maven 自动化部署
 		        </plugin>
 		</plugins>
 	</build>
+	
 </code>
 
 4. 启动Tomcat 
